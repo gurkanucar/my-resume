@@ -1,0 +1,27 @@
+.download-btn {
+  user-select: none;
+  cursor: pointer;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0887ce;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 2ms ease-in-out;
+  font-family: 'Nunito', sans-serif;
+}
+
+.download-btn:hover {
+  background-color: #0467a0;
+}
+
+.download-btn:active {
+  background-color: #303436;
+}
+
+.download-txt {
+  text-align: center;
+}
