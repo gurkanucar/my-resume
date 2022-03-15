@@ -3,6 +3,9 @@ export const techStack = [
     name: "Java",
   },
   {
+    name: "Android",
+  },
+  {
     name: "Spring Boot",
   },
   {
@@ -19,5 +22,8 @@ export const techStack = [
   },
   {
     name: "JavaScript",
+  },
+  {
+    name: "Arduino",
   },
 ];
