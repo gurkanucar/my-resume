@@ -1,0 +1,26 @@
+.welcome-text__root {
+  z-index: 999;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: pre-wrap;
+  margin-top: 20vh;
+}
+
+.welcome-text__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-text__item {
+  text-align: start;
+  font-size: 2.5rem;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 0.15rem;
+  font-weight: 300 !important;
+}
+
+.welcome-text__item__strong {
+  font-weight: 800 !important;
+}
