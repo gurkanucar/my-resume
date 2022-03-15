@@ -1,0 +1,6 @@
+.navbar-root {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  gap: 1rem;
+}
