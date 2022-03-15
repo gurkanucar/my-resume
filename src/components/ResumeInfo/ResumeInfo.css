@@ -9,12 +9,18 @@
   height: max-content;
   padding-top: 50px;
   padding-bottom: 50px;
+
   transition: all 0.2s ease-in-out;
 }
 
 .resume-info__root:hover {
-  color: #07a780;
-  background: #f4f4f4;
+  /* color: #07a780; */
+  background: #454545;
+}
+
+.resume-info__attribute__hobbies {
+  margin-left: 20px;
+  transform: scale(0.80);
 }
 
 .resume-info__title {
@@ -39,7 +45,7 @@
 .resume-info__attribute__name {
   font-family: "Nunito";
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 .resume-info__attribute__value {
   font-family: "Nunito";

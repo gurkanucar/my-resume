@@ -1,5 +1,9 @@
 import React from "react";
 import "./ResumeInfo.css";
+
+//import hobbies from "../../assets/images/hobbies.png";
+import hobbies from "../../assets/shapes/hobbies.svg";
+
 const ResumeInfo = () => {
   const attributes = [
     { name: "Email", value: "ucar.gurkan@hotmail.com" },
@@ -26,6 +30,7 @@ const ResumeInfo = () => {
             </div>
           );
         })}
+        <img className="resume-info__attribute__hobbies" src={hobbies} />
       </div>
     </div>
   );
