@@ -6,6 +6,8 @@
   align-items: center;
   white-space: pre-wrap;
   margin-top: 20vh;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .welcome-text__wrapper {
@@ -15,7 +17,7 @@
 
 .welcome-text__item {
   text-align: start;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-family: "Nunito", sans-serif;
   letter-spacing: 0.15rem;
   font-weight: 300 !important;

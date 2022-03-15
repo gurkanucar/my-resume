@@ -11,16 +11,16 @@ const AccountList = () => {
     <div className="account-list__root">
       <div className="account-list__item gitHub">
         {" "}
-        <FaGithub size={48} />
+        <FaGithub size={36} />
       </div>
       <div className="account-list__item stackOverFlow">
-        <FaStackOverflow size={48} />
+        <FaStackOverflow size={36} />
       </div>
       <div className="account-list__item linkedIn">
-        <FaLinkedin size={48} />
+        <FaLinkedin size={36} />
       </div>
       <div className="account-list__item youTube">
-        <FaYoutube size={48} />
+        <FaYoutube size={36} />
       </div>
     </div>
   );

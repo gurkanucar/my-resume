@@ -1,6 +1,7 @@
 .svg-shapes__root {
 }
 
+/* blue */
 .svg-shapes__item__1 {
   position: absolute;
   top: 40%;
@@ -9,7 +10,7 @@
   z-index: -1;
 }
 
-
+/* orange */
 .svg-shapes__item__2 {
   position: absolute;
   top: 50%;
@@ -18,6 +19,7 @@
   z-index: -1;
 }
 
+/* green */
 .svg-shapes__item__3 {
   position: absolute;
   top: 12%;
@@ -26,6 +28,7 @@
   z-index: -1;
 }
 
+/* yellow */
 .svg-shapes__item__4 {
   position: absolute;
   top: 35%;
@@ -34,10 +37,11 @@
   z-index: -1;
 }
 
+/* red */
 .svg-shapes__item__5 {
   position: absolute;
   top: 20%;
-  left: 60%;
+  left: 65%;
   width: 7%;
   z-index: -1;
 }
