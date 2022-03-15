@@ -11,7 +11,10 @@ import Shape5 from "../../assets/shapes/Shape5.svg";
 const Shapes = () => {
   return (
     <div className="svg-shapes__root">
-      <img className="svg-shapes__item__1 svg-shapes__item__odd" src={Shape1} />
+      <img
+        className="svg-shapes__item__1 svg-shapes__item__even"
+        src={Shape1}
+      />
       <img
         className="svg-shapes__item__2 svg-shapes__item__even"
         src={Shape2}
