@@ -1,0 +1,26 @@
+.see-more__root {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.see-more__text {
+  user-select: none;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.see-more__icon {
+  cursor: pointer;
+  color: #2c2c2c;
+  transition: all 0.2s ease-in-out;
+}
+
+.see-more__icon:hover {
+  color: #1d1d1d;
+  transform: scale(1.2);
+}
