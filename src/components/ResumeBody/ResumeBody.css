@@ -1,0 +1,14 @@
+.resume-body__root {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+@media (max-width: 850px) {
+  .resume-body__root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

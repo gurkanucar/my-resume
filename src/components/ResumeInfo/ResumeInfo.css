@@ -36,3 +36,30 @@
   font-weight: 600;
   white-space: pre-wrap;
 }
+
+@media (max-width: 850px) {
+  .resume-info__root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    background: #07a780;
+    border-radius: 25px;
+    width: 60%;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .resume-info__title {
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Nunito";
+    color: white;
+  }
+}
