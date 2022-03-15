@@ -1,0 +1,25 @@
+.contact-btn {
+  user-select: none;
+  cursor: pointer;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2ms ease-in-out;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 0.15rem;
+}
+
+.contact-btn:hover {
+  color: #0467a0;
+}
+
+.contact-btn:active {
+  color: #303436;
+}
+
+.contact-txt {
+  text-align: center;
+}
