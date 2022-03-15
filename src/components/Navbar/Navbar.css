@@ -1,9 +1,21 @@
 .navbar-root {
+  z-index: 9999;
+  width: 100%;
   position: fixed;
   display: flex;
   justify-content: flex-end;
-  margin: 20px;
   gap: 1rem;
+  padding: 20px;
   top: 0;
   right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  color: rgb(0, 0, 0) !important;
+}
+
+.not-active {
+  background-color: rgba(41, 41, 41, 0.582);
+  color: white;
 }
