@@ -1,0 +1,33 @@
+.cover-letter-component__root {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background: #454545;
+  gap: 0;
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+  margin: 20px;
+}
+
+.cover-letter-component__name {
+  color: #07a780;
+  font-family: "Nunito";
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.cover-letter-component__title {
+  color: #07a780;
+  font-family: "Nunito";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cover-letter-component__content {
+  color: #ffffff;
+  font-family: "Nunito";
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 20px;
+}
