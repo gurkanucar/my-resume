@@ -6,8 +6,7 @@
   gap: 0;
   padding: 20px;
   border-radius: 20px;
-  width: 60%;
-  margin: 20px;
+  width: 90%;
 }
 
 .cover-letter-component__name {
@@ -30,4 +29,17 @@
   font-size: 1.2rem;
   font-weight: 300;
   margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+  .cover-letter-component__root {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background: #454545;
+    gap: 0;
+    padding: 20px;
+    border-radius: 20px;
+    width: 90%;
+  }
 }

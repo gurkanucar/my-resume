@@ -1,0 +1,18 @@
+.resume__root {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media (max-width: 1000px) {
+  .resume__root {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media (max-width: 850px) {
+  .resume__root {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
