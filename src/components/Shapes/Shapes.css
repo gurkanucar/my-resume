@@ -1,0 +1,43 @@
+.svg-shapes__root {
+}
+
+.svg-shapes__item__1 {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 10%;
+  z-index: -1;
+}
+
+
+.svg-shapes__item__2 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 7%;
+  z-index: -1;
+}
+
+.svg-shapes__item__3 {
+  position: absolute;
+  top: 12%;
+  left: 18%;
+  width: 10%;
+  z-index: -1;
+}
+
+.svg-shapes__item__4 {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  width: 10%;
+  z-index: -1;
+}
+
+.svg-shapes__item__5 {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 7%;
+  z-index: -1;
+}
