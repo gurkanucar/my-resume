@@ -19,7 +19,7 @@ const ProjectItem = (props) => {
         <span className="project-item__name">{projectName}</span>
         <img className="project-item__image" src={projectImage} />
         <span className="project-item__description">{projectDescription}</span>
-        <span className="tooltiptext">Click to go project</span>
+        <span className="tooltiptext">Click to go to project</span>
       </div>
     </div>
   );
