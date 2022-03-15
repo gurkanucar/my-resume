@@ -1,0 +1,33 @@
+.tech-stack-item__root {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #07a780;
+  border-radius: 24px;
+  height: 60px;
+  width: 150px;
+  color: white;
+  font-family: "Nunito";
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.tech-stack-item__root:hover {
+  background: rgb(233, 233, 233);
+  color: #07a780;
+}
+
+.tech-stack-item__img__wrapper {
+  background: #f4f4f4;
+  border-radius: 10%;
+}
+
+.tech-stack-item__img {
+  object-fit: cover;
+  width: 40px;
+}
