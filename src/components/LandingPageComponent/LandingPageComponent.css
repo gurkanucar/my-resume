@@ -1,3 +1,10 @@
 .landing-page-component-root {
-  height: 100vh;
+  height: 40vh;
+}
+
+
+@media (max-width: 850px) {
+  .landing-page-component-root {
+    height: 30vh;
+  }
 }

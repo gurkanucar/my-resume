@@ -1,13 +1,16 @@
 .welcome-text__root {
   z-index: 999;
+  position: absolute;
+  top: 20vh;
+  left: 36%;
   user-select: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   white-space: pre-wrap;
-  margin-top: 20vh;
+  /* margin-top: 20vh;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 20px; */
 }
 
 .welcome-text__wrapper {
@@ -25,4 +28,18 @@
 
 .welcome-text__item__strong {
   font-weight: 800 !important;
+}
+
+@media (max-width: 1300px) {
+  .welcome-text__root {
+    top: 20vh;
+    left: 28%;
+  }
+}
+
+@media (max-width: 850px) {
+  .welcome-text__root {
+    top: 20vh;
+    left: 21vw;
+  }
 }
