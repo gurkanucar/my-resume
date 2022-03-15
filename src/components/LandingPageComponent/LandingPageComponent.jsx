@@ -12,10 +12,7 @@ const LandingPageComponent = () => {
   return (
     <div className="landing-page-component-root">
       <Shapes />
-      <Navbar>
-        <ContactButton />
-        <DownloadButton />
-      </Navbar>
+      
       <WelcomeText />
       <AccountList />
       <SeeMoreComponent />
