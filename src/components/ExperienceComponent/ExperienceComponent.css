@@ -37,47 +37,6 @@
   flex-wrap: wrap;
 }
 
-.experience-component__experience__item {
-  background-color: #f4f4f4;
-  border-radius: 20px;
-  padding: 20px;
-  margin-top: 20px;
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  transition: all 0.3s ease-in-out;
-}
-
-.experience-component__experience__item:hover {
-  background-color: #07a780;
-  color: white;
-  transform: scale(1.05);
-}
-
-.experience-component__experience__item__top {
-  font-family: "Nunito";
-  font-size: 1.2rem;
-  font-weight: 700;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.experience-component__experience__item__description {
-  font-family: "Nunito";
-  font-size: 1.1rem;
-  font-weight: 600;
-  white-space: pre-wrap;
-}
-
-.experience-component__experience__item__date {
-  font-family: "Nunito";
-  font-size: 1rem;
-  font-weight: 700;
-}
-
 @media (max-width: 850px) {
   .experience-component__root {
     user-select: none;
