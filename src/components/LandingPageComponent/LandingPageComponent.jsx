@@ -6,6 +6,8 @@ import Navbar from "../Navbar/Navbar";
 import SeeMoreComponent from "../SeeMoreComponent/SeeMoreComponent";
 import Shapes from "../Shapes/Shapes";
 import WelcomeText from "../WelcomeText/WelcomeText";
+
+
 import "./LandingPageComponent.css";
 
 const LandingPageComponent = () => {
