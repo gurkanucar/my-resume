@@ -4,11 +4,34 @@
   flex-direction: row;
 }
 
-@media (max-width: 850px) {
+.resume-body__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .resume-body__right {
+    margin-left: 20px;
+    margin-right: 7%;
+  }
+}
+
+@media (max-width: 900px) {
   .resume-body__root {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .resume-body__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 10;
   }
 }

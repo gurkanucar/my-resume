@@ -12,6 +12,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume-top__image__wrapper:hover {
+  transform: scale(1.08);
 }
 
 .resume-top__image {

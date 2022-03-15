@@ -7,6 +7,12 @@
   padding: 20px;
   border-radius: 20px;
   width: 90%;
+  transition: all 0.2s ease-in-out;
+}
+
+.cover-letter-component__root:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .cover-letter-component__name {

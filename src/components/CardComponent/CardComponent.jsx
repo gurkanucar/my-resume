@@ -3,6 +3,14 @@ import "./CardComponent.css";
 const CardComponent = (props) => {
   const { data } = props;
 
+  const getDate = () => {
+    if (data.endDate) {
+      return `${data.startDate} - ${data.endDate}`;
+    } else {
+      return `${data.startDate}`;
+    }
+  };
+
   return (
     <div className="card-component__item">
       <div className="card-component__item__top">
@@ -13,9 +21,7 @@ const CardComponent = (props) => {
         {"    "}
         {data.jobDescription}
       </div>
-      <div className="card-component__item__date">
-        {data.startDate} - {data.endDate}
-      </div>
+      <div className="card-component__item__date">{getDate()}</div>
     </div>
   );
 };

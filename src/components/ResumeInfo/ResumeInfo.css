@@ -1,11 +1,20 @@
 .resume-info__root {
+  cursor: pointer;
   margin-top: 70px;
-  margin-left: 7%;
+  margin-left: 4%;
+  color: white;
   background: #07a780;
   border-radius: 25px;
   width: max-content;
+  height: max-content;
   padding-top: 50px;
   padding-bottom: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.resume-info__root:hover {
+  color: #07a780;
+  background: #f4f4f4;
 }
 
 .resume-info__title {
@@ -16,35 +25,36 @@
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: "Nunito";
-  color: white;
 }
 
 .resume-info__attribute {
   margin: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume-info__attribute:hover {
+  transform: scale(1.08);
 }
 
 .resume-info__attribute__name {
   font-family: "Nunito";
-  color: white;
   font-size: 1.5rem;
   font-weight: 600;
 }
 .resume-info__attribute__value {
   font-family: "Nunito";
-  color: white;
   font-size: 1.2rem;
   font-weight: 600;
   white-space: pre-wrap;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .resume-info__root {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 70px;
-    background: #07a780;
     border-radius: 25px;
     width: 60%;
     margin-left: 0;
@@ -60,6 +70,5 @@
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: "Nunito";
-    color: white;
   }
 }
