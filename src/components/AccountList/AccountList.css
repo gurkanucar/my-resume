@@ -1,0 +1,39 @@
+.account-list__root {
+  margin-top: 25vh;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.account-list__item {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.2s ease-in-out;
+}
+
+.account-list__item:hover {
+  transform: scale(1.2);
+}
+
+.stackOverFlow:hover {
+  color: #f1a61a;
+}
+
+.gitHub:hover {
+  color: #000000;
+}
+
+.linkedIn:hover {
+  color: #0467a0;
+}
+
+.youTube:hover {
+  color: #f80808;
+}
