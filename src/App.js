@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ContactButton from "./components/ContactButton/ContactButton";
 import DownloadButton from "./components/DownloadButton/DownloadButton";
 
-import resume from "../src/assets/Gurkan_UCAR.pdf";
+import resume from "../src/assets/resume.pdf";
 
 function App() {
   return (
