@@ -8,12 +8,16 @@ import Navbar from "./components/Navbar/Navbar";
 import ContactButton from "./components/ContactButton/ContactButton";
 import DownloadButton from "./components/DownloadButton/DownloadButton";
 
+import resume from "../src/assets/Gurkan_UCAR.pdf";
+
 function App() {
   return (
     <div>
       <Navbar>
-        <ContactButton />
-        <DownloadButton />
+        {/* <ContactButton /> */}
+        <a href={resume} download="Gurkan_UCAR.pdf">
+          <DownloadButton />
+        </a>
       </Navbar>
       <LandingPageComponent />
       <ResumeComponent />
