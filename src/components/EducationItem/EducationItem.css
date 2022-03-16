@@ -1,0 +1,83 @@
+.education-item__root {
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  height: 200px;
+  flex: 1;
+  background: #f4f4f4;
+  color: rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.education-item__root__not__completed {
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  height: 200px;
+  flex: 1;
+  background: #07a780;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.education-item__root:hover {
+  color: #fff;
+  background: #454545;
+}
+
+.education-item__root__not__completed:hover {
+  color: #fff;
+  background: #454545;
+}
+
+.education-item__name {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Nunito";
+  margin-bottom: 20px;
+}
+
+.education-item__degree {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: "Nunito";
+}
+
+.education-item__date {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Nunito";
+  padding-top: 50px;
+}
+
+
+@media (max-width: 1400px) {
+  .education-item__root {
+    height: 300px;
+  }
+
+  .education-item__root__not__completed {
+    height: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  .education-item__root {
+    height: 200px;
+  }
+
+  .education-item__root__not__completed {
+    height: 200px;
+  }
+}

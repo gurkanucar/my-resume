@@ -1,5 +1,6 @@
 import React from "react";
 import AchievementComponent from "../AchievementComponent/AchievementComponent";
+import EducationComponent from "../EducationComponent/EducationComponent";
 import ExperienceComponent from "../ExperienceComponent/ExperienceComponent";
 import ProjectComponent from "../ProjectComponent/ProjectComponent";
 import ResumeInfo from "../ResumeInfo/ResumInfo";
@@ -14,6 +15,7 @@ const ResumeBody = () => {
       <div className="resume-body__right">
         <TechStackComponent />
         <ExperienceComponent />
+        <EducationComponent/>
         <AchievementComponent />
         <VolunteerWork />
         <ProjectComponent />
