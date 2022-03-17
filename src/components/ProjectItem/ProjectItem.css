@@ -22,7 +22,7 @@
 }
 
 .project-item__image__wrapper {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 20px;
   overflow: hidden;
 }
@@ -36,6 +36,8 @@
 }
 
 .project-item__name {
+  text-align: center;
+  height: 30px;
   font-size: 1.2rem;
   font-weight: 800;
   font-family: "Nunito";
