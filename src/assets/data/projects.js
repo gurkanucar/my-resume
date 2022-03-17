@@ -35,7 +35,7 @@ export const projects = [
     projectLink:
       "https://play.google.com/store/apps/details?id=com.gusoft.birhedefimvar",
     projectImage:
-      "https://play-lh.googleusercontent.com/VC9jTci-DPIf0qS9Kpr_69lrLcOHHp9bCxjnbU8d_-0WVmagljKlCvOb-gJfE7zg19U=s180",
+      "http://www.astronomtamer.com/wp-content/uploads/2022/03/Screenshot-2022-03-17-213115.png",
   },
   {
     projectName: "Acil Haber Verici (Emergency Bulk Message Sender)",
@@ -44,6 +44,6 @@ export const projects = [
     projectLink:
       "https://play.google.com/store/apps/details?id=com.gucarsoft.acilhaberverici",
     projectImage:
-      "https://play-lh.googleusercontent.com/-r0EEVHL8N3bvYtxdXmRrqPlqzrl1Cv7Odi3DZuKhSejGmMHCZNYhrwCQOpAG7--vNo=s180-rw",
+      "http://www.astronomtamer.com/wp-content/uploads/2022/03/Screenshot-2022-03-17-213056.png",
   },
 ];
