@@ -1,0 +1,26 @@
+.up-button__root {
+  cursor: pointer;
+  position: fixed;
+  margin: 30px;
+  bottom: 0;
+  right: 0;
+  transition: all 0.2s ease-in-out;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+}
+
+.up-button__root:hover {
+  transform: scale(1.2);
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
