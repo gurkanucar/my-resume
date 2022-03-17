@@ -17,8 +17,11 @@ const ProjectItem = (props) => {
         onClick={() => openInNewTab(projectLink)}
       >
         <span className="project-item__name">{projectName}</span>
-        <img className="project-item__image" src={projectImage} />
+        <div className="project-item__image__wrapper ">
+          <img className="project-item__image" src={projectImage} />
+        </div>
         <span className="project-item__description">{projectDescription}</span>
+
         <span className="tooltiptext">Click to go to project</span>
       </div>
     </div>

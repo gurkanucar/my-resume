@@ -1,14 +1,15 @@
 .project-item__root {
   cursor: pointer;
   display: flex;
-  border-radius: 25px;
-  padding: 20px;
-  padding-bottom: 50px;
-  height: 400px;
-  width: 300px;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  width: 300px;
+  height: 460px;
+  border-radius: 25px;
+  padding: 20px 20px 30px 20px;
+  margin-top: 20px;
   background: #07a780;
   color: #fff;
   transition: all 0.2s ease-in-out;
@@ -17,12 +18,21 @@
 .project-item__root:hover {
   color: #fff;
   background: #454545;
+  transform: scale(1.05);
+}
+
+.project-item__image__wrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .project-item__image {
   border-radius: 25px;
   object-fit: cover;
   width: 250px;
+  height: 200px;
+  background-size: cover;
 }
 
 .project-item__name {
@@ -35,26 +45,30 @@
   font-size: 1.1rem;
   font-weight: 400;
   font-family: "Nunito";
+  height: 250px;
 }
 
 .tooltip {
   position: relative;
   display: inline-block;
+  transition: all 0.2s ease-in-out;
 }
 
 .tooltip .tooltiptext {
+  font-family: "Nunito";
   visibility: hidden;
-  width: 120px;
-  background-color: black;
+  size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.514);
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 5px 20px 5px 20px;
+  transition: all 0.2s ease-in-out;
 
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 105%;
+  top: -8%;
 }
 
 .tooltip:hover .tooltiptext {
