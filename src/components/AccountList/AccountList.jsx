@@ -18,7 +18,6 @@ const AccountList = () => {
         className="account-list__item gitHub"
         onClick={() => openInNewTab("https://github.com/gurkanucar")}
       >
-        {" "}
         <FaGithub size={36} />
       </div>
       <div

@@ -1,6 +1,5 @@
 import React from "react";
 import CoverLetterComponent from "../CoverLetterComponent/CoverLetterComponent";
-import ImageComponent from "../ImageComponent/ImageComponent";
 
 import "./ResumeTop.css";
 
