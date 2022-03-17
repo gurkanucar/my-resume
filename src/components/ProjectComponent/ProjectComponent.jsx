@@ -3,14 +3,12 @@ import "./ProjectComponent.css";
 
 import { projects } from "../../assets/data/projects";
 import ProjectItem from "../ProjectItem/ProjectItem";
+import TitleSeperatorComponent from "../TitleSeperatorComponent/TitleSeperatorComponent";
 
 const ProjectComponent = () => {
   return (
     <div className="project-component__root">
-      <div className="project-component__title">
-        <span>Projects</span>
-        <hr className="project-component__line" />
-      </div>
+      <TitleSeperatorComponent text="Projects" />
       <div className="project-component__projects">
         {projects.map((project, index) => {
           return <ProjectItem key={index} data={project} />;
