@@ -1,5 +1,5 @@
 .see-more__root {
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,9 +18,23 @@
   cursor: pointer;
   color: #2c2c2c;
   transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  padding: 5px;
+  animation: ripple 3s linear infinite;
 }
 
 .see-more__icon:hover {
   color: #1d1d1d;
   transform: scale(1.2);
+}
+
+@keyframes ripple {
+  0% {
+    background-color: rgba(0, 0, 0, 0.055);
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0.055);
+  }
+  100% {
+    background-color: rgba(77, 76, 76, 0);
+    box-shadow: 0 0 0 4rem rgba(77, 76, 76, 0);
+  }
 }
