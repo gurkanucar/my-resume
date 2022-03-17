@@ -1,4 +1,5 @@
 .svg-shapes__root {
+  user-select: none;
 }
 
 .svg-shapes__anim__1 {

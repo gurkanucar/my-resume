@@ -8,10 +8,11 @@
   background-color: #0887ce;
   color: white;
   border-radius: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px 5px 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   transition: all 2ms ease-in-out;
   font-family: 'Nunito', sans-serif;
+  font-size: 0.90rem;
 }
 
 .download-btn:hover {
