@@ -15,9 +15,7 @@ function App() {
     <div>
       <Navbar>
         {/* <ContactButton /> */}
-        <a href={resume} download="Gurkan_UCAR.pdf">
-          <DownloadButton />
-        </a>
+        <DownloadButton />
       </Navbar>
       <LandingPageComponent />
       <ResumeComponent />
