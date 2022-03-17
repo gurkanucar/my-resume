@@ -1,14 +1,29 @@
 .svg-shapes__root {
 }
 
-.svg-shapes__item__odd {
+.svg-shapes__anim__1 {
   transition: all 0.2s ease-in-out;
   animation: anim1 5s ease-in-out infinite alternate;
 }
 
-.svg-shapes__item__even {
+.svg-shapes__anim__2 {
   transition: all 0.2s ease-in-out;
-  animation: anim2 2s ease-in-out infinite alternate;
+  animation: anim2 5s ease-in-out infinite alternate;
+}
+
+.svg-shapes__anim__3 {
+  transition: all 0.2s ease-in-out;
+  animation: anim3 4s ease-in-out infinite alternate;
+}
+
+.svg-shapes__anim__4 {
+  transition: all 0.2s ease-in-out;
+  animation: anim4 6s ease-in-out infinite alternate;
+}
+
+.svg-shapes__anim__5 {
+  transition: all 0.2s ease-in-out;
+  animation: anim5 4s ease-in-out infinite alternate;
 }
 
 /* .svg-shapes__item:hover {
@@ -35,6 +50,36 @@
   }
 }
 
+@keyframes anim3 {
+  0% {
+    transform: scale(1);
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+
+@keyframes anim4 {
+  0% {
+    transform: scale(1.4);
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes anim5 {
+  0% {
+    transform: scale(1.4);
+    transform: rotate(-190deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* blue */
 .svg-shapes__item__1 {
   position: absolute;
@@ -49,16 +94,16 @@
   position: absolute;
   top: 50%;
   left: 30%;
-  width: 7%;
+  width: 9%;
   z-index: 1;
 }
 
 /* green */
 .svg-shapes__item__3 {
   position: absolute;
-  top: 12%;
-  left: 18%;
-  width: 10%;
+  top: 10%;
+  left: 20%;
+  width: 9%;
   z-index: 1;
 }
 
@@ -75,7 +120,7 @@
 .svg-shapes__item__5 {
   position: absolute;
   top: 20%;
-  left: 65%;
+  left: 67%;
   width: 7%;
   z-index: 1;
 }
