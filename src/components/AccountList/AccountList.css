@@ -37,3 +37,12 @@
 .youTube:hover {
   color: #f80808;
 }
+
+
+
+@media (max-width: 850px) {
+  .account-list__root {
+    margin-top: 62vh;
+  }
+  
+}
