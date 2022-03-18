@@ -10,7 +10,6 @@ import Shape5 from "../../assets/shapes/Shape5.svg";
 import { randomAnimation } from "./RandomAnimation";
 
 const Shapes = () => {
-  console.log(randomAnimation(1, 5));
   return (
     <div className="svg-shapes__root">
       <img
