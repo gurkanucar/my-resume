@@ -21,8 +21,13 @@ const LikeButtonComponent = () => {
         setAlreadyClicked(true);
       }}
     >
-      <input type="checkbox" checked={checked} class="checkbox" id="checkbox" />
-      <label for="checkbox">
+      <input
+        type="checkbox"
+        defaultChecked={checked}
+        className="checkbox"
+        id="checkbox"
+      />
+      <label htmlFor="checkbox">
         <svg
           className="heart-svg"
           id="heart-svg"
@@ -32,7 +37,7 @@ const LikeButtonComponent = () => {
           <g
             id="Group"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             transform="translate(467 392)"
           >
             <path
