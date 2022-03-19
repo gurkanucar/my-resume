@@ -1,5 +1,8 @@
 .account-list__root {
   margin-top: 70vh;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-wrap: wrap;
   display: flex;
   flex: 1;
   align-items: center;
@@ -42,7 +45,26 @@
 
 @media (max-width: 850px) {
   .account-list__root {
-    margin-top: 62vh;
+    margin-top: 60vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .account-list__item {
+    transform: scale(0.8);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all 0.2s ease-in-out;
   }
   
 }

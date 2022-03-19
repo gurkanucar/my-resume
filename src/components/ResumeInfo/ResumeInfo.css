@@ -1,11 +1,11 @@
 .resume-info__root {
   cursor: pointer;
   margin-top: 70px;
-  margin-left: 4%;
+  margin-left: 1%;
   color: white;
   background: #07a780;
   border-radius: 25px;
-  width: max-content;
+  width: 40%;
   height: max-content;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -55,7 +55,7 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and  (min-width: 601px){
   .resume-info__root {
     display: flex;
     justify-content: center;
@@ -63,8 +63,10 @@
     flex-direction: column;
     margin-top: 70px;
     border-radius: 25px;
-    width: 80%;
+    width: 40%;
     margin-left: 0;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
   }

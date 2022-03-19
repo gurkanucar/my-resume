@@ -38,3 +38,24 @@
     box-shadow: 0 0 0 4rem rgba(77, 76, 76, 0);
   }
 }
+
+
+
+@media (max-width: 850px) {
+  .see-more__root {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .see-more__text {
+    user-select: none;
+    font-weight: 300;
+    font-size: 1.0rem;
+    font-family: "Nunito", sans-serif;
+  }
+  
+}
