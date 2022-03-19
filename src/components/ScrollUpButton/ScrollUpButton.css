@@ -10,6 +10,7 @@
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
+  z-index: 999999;
 }
 
 .up-button__root:hover {
