@@ -6,7 +6,7 @@ import hobbies from "../../assets/shapes/hobbies.svg";
 
 const ResumeInfo = () => {
   const attributes = [
-    { name: "Email", value: "ucar.gurkan@hotmail.com" },
+    { name: "Email", value: "job@gurkanucar.com" },
     { name: "Address", value: "Turkey" },
     { name: "Date of Birth", value: "2001" },
     { name: "Languages", value: "Turkish\nEnglish" },
