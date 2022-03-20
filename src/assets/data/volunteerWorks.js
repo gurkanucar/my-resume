@@ -3,7 +3,7 @@ export const volunteerWorks = [
     company: "Umay Rocket Team",
     title: "Avionics Team",
     jobDescription:
-      "I worked in team of avionics and ground station. We used Arduino in our rocket and coded it with c language. Here I learned to be a good team player and project planning. I improved my communication skills and took responsibility.",
+      "I worked in the team of avionics and ground station. Here I learned to be a good team player and project planner. I improved my communication skills and took responsibility.",
     startDate: "11/2019",
     endDate: "04/2021",
   },
