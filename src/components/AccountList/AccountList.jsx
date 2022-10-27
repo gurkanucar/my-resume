@@ -3,6 +3,7 @@ import "./AccountList.css";
 import {
   FaGithub,
   FaLinkedin,
+  FaMedium,
   FaStackOverflow,
   FaYoutube,
 } from "react-icons/fa";
@@ -27,6 +28,12 @@ const AccountList = () => {
         }
       >
         <FaStackOverflow size={36} />
+      </div>{" "}
+      <div
+        className="account-list__item mediumBlog"
+        onClick={() => openInNewTab("https://medium.com/@gurkanucar")}
+      >
+        <FaMedium size={36} />
       </div>
       <div
         className="account-list__item linkedIn"
