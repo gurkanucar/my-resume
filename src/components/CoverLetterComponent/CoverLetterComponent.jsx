@@ -6,13 +6,10 @@ const CoverLetterComponent = () => {
     <div className="cover-letter-component__root">
       <span className="cover-letter-component__name">Gurkan UCAR</span>
       <span className="cover-letter-component__title">
-        ~Java Backend Developer
+        ~ Java Backend Developer
       </span>
       <span className="cover-letter-component__content">
-        Hello, I’m Gürkan. I started to my software developer career before
-        highschool. Until this time I developed many projects in different
-        platforms also i have chosen my path. I want to improve myself in java
-        backend development.
+        Hello, This is Gürkan. I am an inquistive and proactive person. I love to learn and produce things.
       </span>
     </div>
   );
