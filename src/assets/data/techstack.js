@@ -3,19 +3,41 @@ export const techStack = [
     name: "Java",
   },
   {
-    name: "Android",
+    name: "Spring Boot",
   },
   {
-    name: "Spring Boot",
+    name: "MongoDB",
   },
   {
     name: "MySQL",
   },
+
   {
     name: "Git",
   },
   {
     name: "Docker",
+  },
+  {
+    name: "RabbitMQ",
+  },
+  {
+    name: "Redis",
+  },
+  {
+    name: "Unit & Integration Testing",
+  },
+  {
+    name: "Rest API",
+  },
+  {
+    name: "GraphQL",
+  },
+  {
+    name: "Socket IO",
+  },
+  {
+    name: "WebSockets",
   },
   {
     name: "ReactJS",

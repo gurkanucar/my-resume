@@ -7,7 +7,7 @@ import TitleSeperatorComponent from "../TitleSeperatorComponent/TitleSeperatorCo
 const TechStackComponent = () => {
   return (
     <div className="tech-stack-component__root">
-     <TitleSeperatorComponent text="Tech Stack" />
+     <TitleSeperatorComponent text="Technical Skills" />
       <div className="tech-stack-component__stacks">
         {techStack.map((tech, index) => {
           return <TechStackItem data={tech} key={index} />;
