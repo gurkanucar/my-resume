@@ -3,6 +3,12 @@ import "./CardComponent.css";
 const CardComponent = (props) => {
   const { data } = props;
 
+  const openInNewTab = (url) => {
+    if (!data.link) return;
+    const newWindow = window.open(data.link, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
+
   const getDate = () => {
     if (data.endDate) {
       return `${data.startDate} - ${data.endDate}`;
@@ -12,15 +18,17 @@ const CardComponent = (props) => {
   };
 
   return (
-    <div className="card-component__item">
+    <div className="card-component__item" onClick={openInNewTab}>
       <div className="card-component__item__top">
         <div> {data.company}</div>
         <div> {data.title}</div>
       </div>
       <div className="card-component__item__description">
-        {"    "}
         {data.jobDescription}
       </div>
+      {data.link && (
+        <div className="card-component__item__link">{`link: ${data.link}`}</div>
+      )}
       <div className="card-component__item__date">{getDate()}</div>
     </div>
   );
