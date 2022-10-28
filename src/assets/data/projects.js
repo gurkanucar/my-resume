@@ -14,32 +14,33 @@ export const projects = [
     projectImage: "/images/real_time_music.jpg",
   },
   {
-    projectName: "Chat Application",
-    projectDescription:
-      "Spring boot and react js socket io real-time chat application example",
-    projectLink: "https://github.com/gurkanucar/socketio-simple-chat",
-    projectImage: "/images/chat_app.png",
-  },
-  {
     projectName: "Collaborative Html-Css-JS Editor",
     projectDescription:
       "You can write code with your friends.In this project i used socket.io for real time operations. Every 2 seconds, your codes will save to mongo db database. You can create a new project or you can open an existing one.",
     projectLink: "https://github.com/gurkanucar/collaborative-web-be",
     projectImage: "/images/web_editor.png",
   },
-  {
-    projectName: "Social Media App With Push Notifs",
-    projectDescription:
-      "In this project, I used server-sent events with spring boot instead of WebSockets. Websockets can send or receive data because it's bi-directional but Server-Sent Events are uni-directional and can only push data.",
-    projectLink: "https://github.com/gurkanucar/post-sharing-be",
-    projectImage: "/images/social_media_app.png",
-  },
+
   {
     projectName: "QR Code Login Using Sockets",
     projectDescription:
       "In this project i used sockets for listening login events. Frontend is creating random qr codes and refreshing for each adjustable second. Then frontend is connecting to our Spring Boot Stomp socket using random generated room id.",
     projectLink: "https://github.com/gurkanucar/jwt-project",
     projectImage: "/images/qr_code_login.png",
+  },
+  {
+    projectName: "Social Media App With Push Notifs (SSE)",
+    projectDescription:
+      "In this project, I used Server-Sent Events instead of WebSockets. Websockets can send or receive data because it's bi-directional but Server-Sent Events are uni-directional and can only push data.",
+    projectLink: "https://github.com/gurkanucar/post-sharing-be",
+    projectImage: "/images/social_media_app.png",
+  },
+  {
+    projectName: "Chat Application",
+    projectDescription:
+      "Spring boot and react js socket io real-time chat application example",
+    projectLink: "https://github.com/gurkanucar/socketio-simple-chat",
+    projectImage: "/images/chat_app.png",
   },
   {
     projectName: "IOT WebSocket Project",
@@ -76,7 +77,7 @@ export const projects = [
       "With this project I helped to many students, especially myself, who are preparing for university exam.",
     projectLink:
       "https://play.google.com/store/apps/details?id=com.gusoft.birhedefimvar",
-    projectImage: "/images/ahv.png",
+    projectImage: "/images/bhv.png",
   },
   {
     projectName: "Acil Haber Verici (Emergency Bulk Message Sender)",
@@ -84,6 +85,6 @@ export const projects = [
       "With this project, I ensured that automatic messages are sent to the people you pre-determined in case of emergency disasters such as earthquakes.",
     projectLink:
       "https://play.google.com/store/apps/details?id=com.gucarsoft.acilhaberverici",
-    projectImage: "/images/bhv.png",
+    projectImage: "/images/ahv.png",
   },
 ];
