@@ -1,19 +1,14 @@
 .resume-top__root {
   display: flex;
   flex-direction: row;
-  justify-content: start;
   align-items: center;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .resume-top__image__wrapper {
   transition: all 0.2s ease-in-out;
   width: 35%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
-
-
 
 .resume-top__image {
   object-fit: cover;
@@ -29,13 +24,10 @@
 @media (max-width: 1300px) {
   .resume-top__root {
     margin-top: 5vh;
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
   }
   .resume-top__image {
     object-fit: cover;
@@ -45,7 +37,7 @@
     transition: all 0.2s ease-in-out;
     margin-bottom: 5vh;
   }
-  
+
   .resume-top__image:hover {
     border-radius: 20%;
   }
@@ -54,10 +46,8 @@
     transition: all 0.2s ease-in-out;
     text-align: center;
     width: 60%;
-   
   }
 }
-
 
 @media (max-width: 850px) {
   .resume-top__root {
@@ -66,8 +56,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
   }
   .resume-top__image {
     object-fit: cover;

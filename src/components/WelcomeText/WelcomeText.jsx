@@ -12,7 +12,9 @@ const WelcomeText = () => {
         </span>
         <span className="welcome-text__item">
           I am a{" "}
-          <strong className="welcome-text__item__strong">Java Developer</strong>
+          <strong className="welcome-text__item__strong">
+            Java Backend Developer
+          </strong>
         </span>
       </div>
     </div>
