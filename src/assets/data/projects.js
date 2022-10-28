@@ -59,7 +59,7 @@ export const projects = [
   {
     projectName: "Spring Boot Referral System",
     projectDescription:
-      "In this project, I developed a simple referral system using spring boot. While you are registering you have to write a referral code in the front end. If the referral code is valid and if referred users have available referred person count you can register to the platform.",
+      "I developed a simple referral system using spring boot. You have to register using referral code. If the referral code is valid and if referred users have available referred person count you can register to the platform.",
     projectLink: "https://github.com/gurkanucar/Spring-Boot-Referral-System",
     projectImage: "https://i.ytimg.com/vi/TyoF5pbu-3Y/mqdefault.jpg",
   },

@@ -8,7 +8,7 @@
   width: 300px;
   height: 460px;
   border-radius: 25px;
-  padding: 20px 20px 30px 20px;
+  padding: 5px 15px 5px 15px;
   margin-top: 20px;
   background: #07a780;
   color: #fff;
@@ -22,15 +22,15 @@
 }
 
 .project-item__image__wrapper {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
   overflow: hidden;
 }
 
 .project-item__image {
-  border-radius: 25px;
+  border-radius: 5px;
   object-fit: cover;
-  width: 250px;
+  width: 300px;
   height: 200px;
   background-size: cover;
 }
@@ -75,4 +75,36 @@
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+@media (max-width: 450px) {
+  .project-item__root {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 460px;
+    border-radius: 25px;
+    margin: 5px 13px 5px 5px;
+    background: #07a780;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .project-item__root:hover {
+    color: #fff;
+    background: #454545;
+    transform: scale(1.05);
+  }
+
+  .project-item__image {
+    border-radius: 5px;
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+  }
 }
