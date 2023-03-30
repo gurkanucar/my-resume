@@ -11,7 +11,9 @@ export const techStack = [
   {
     name: "MySQL",
   },
-
+  {
+    name: "PostgreSQL",
+  },
   {
     name: "Git",
   },
@@ -19,7 +21,13 @@ export const techStack = [
     name: "Docker",
   },
   {
+    name: "AWS",
+  },
+  {
     name: "RabbitMQ",
+  },
+  {
+    name: "Kafka",
   },
   {
     name: "Redis",

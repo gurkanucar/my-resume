@@ -16,7 +16,7 @@ const ResumeBody = () => {
         <TechStackComponent />
         <ExperienceComponent />
         <EducationComponent/>
-        <AchievementComponent />
+        {/* <AchievementComponent /> */}
         <VolunteerWork />
         <ProjectComponent />
       </div>

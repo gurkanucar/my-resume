@@ -4,9 +4,9 @@ export const volunteerWorks = [
     title: "Volunteer Instructor",
     link: "https://linktr.ee/folksdev",
     jobDescription:
-      "In this developer society we are organizing educational videos, medium articles, and events with our team.",
+      "In this developer society I am contributing by preparing tutorials, publish articles on Medium and participate in team-led events.",
     startDate: "09/2021",
-    endDate: "",
+    endDate: "Present",
   },
   {
     company: "Umay Rocket Team",

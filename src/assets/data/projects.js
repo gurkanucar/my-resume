@@ -1,5 +1,24 @@
 export const projects = [
   {
+    projectName: "Spring Boot WebRTC P2P Video Communication",
+    projectDescription:
+      " In this project, I have implemented 'netty-socket.io' ( Java Spring Boot compatible) as a signaling mechanism.",
+    projectLink: "https://github.com/gurkanucar/spring-boot-webrtc-peer2peer",
+    projectImage: "/images/webrtcpeer.png",
+  },
+  {
+    projectName: "Spring Boot MQTT Location tracking",
+    projectDescription: "I used mosquitto mqtt & react js and spring boot in this project.",
+    projectLink: "https://github.com/gurkanucar/mqtt-example",
+    projectImage: "/images/mqtt_example.png",
+  },
+  {
+    projectName: "Rezztoran",
+    projectDescription: "Rezztoran-be, is a backend restaurant reservation (booking) system. Our University graduate project.",
+    projectLink: "https://github.com/gurkanucar/rezztoran-be",
+    projectImage: "/images/rezztoran_logo.png",
+  },
+  {
     projectName: "University Notification App",
     projectDescription:
       "Thanks to this project, students can join channels created by teachers and they can get information about lessons, internships, and job opportunities or announcements.",
