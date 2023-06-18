@@ -12,12 +12,14 @@
   height: 60px;
   color: white;
   font-family: "Nunito";
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
+  transform: scale(0.96);
 }
 
 .tech-stack-item__root:hover {
+  transform: scale(1.1);
   background: rgb(233, 233, 233);
   color: #07a780;
 }
