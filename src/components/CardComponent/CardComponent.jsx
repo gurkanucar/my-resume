@@ -1,7 +1,7 @@
 import React from "react";
 import "./CardComponent.css";
 const CardComponent = (props) => {
-  const { data } = props;
+  const { data,present } = props;
 
   const openInNewTab = (url) => {
     if (!data.link) return;
@@ -18,7 +18,12 @@ const CardComponent = (props) => {
   };
 
   return (
-    <div className="card-component__item" onClick={openInNewTab}>
+    <div
+      className={
+        !present ? "card-component__item" : "card-component__item__present"
+      }
+      onClick={openInNewTab}
+    >
       <div className="card-component__item__top">
         <div> {data.company}</div>
         <div> {data.title}</div>

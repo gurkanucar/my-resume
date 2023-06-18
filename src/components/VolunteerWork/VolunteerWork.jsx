@@ -9,7 +9,13 @@ const VolunteerWork = () => {
       <TitleSeperatorComponent text="Volunteer Work" />
       <div className="volunteer-work-component__works">
         {volunteerWorks.map((volunteerWork, index) => {
-          return <CardComponent data={volunteerWork} key={index} />;
+          return (
+            <CardComponent
+              data={volunteerWork}
+              present={volunteerWork.endDate == "Present"}
+              key={index}
+            />
+          );
         })}
       </div>
     </div>

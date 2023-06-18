@@ -9,7 +9,13 @@ const ExperienceComponent = () => {
       <TitleSeperatorComponent text="Experience" />
       <div className="experience-component__experiences">
         {experiences.map((experience, index) => {
-          return <CardComponent data={experience} key={index} />;
+          return (
+            <CardComponent
+              data={experience}
+              present={experience.endDate == "Present"}
+              key={index}
+            />
+          );
         })}
       </div>
     </div>
