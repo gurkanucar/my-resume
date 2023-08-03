@@ -15,7 +15,7 @@ const EducationItem = (props) => {
         </span>
       ) : (
         <span className="education-item__date">
-          {startDate} - Expected Graduate Date {expected}
+          {startDate} - {expected}
         </span>
       )}
     </div>

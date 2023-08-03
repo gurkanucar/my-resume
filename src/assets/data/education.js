@@ -8,7 +8,7 @@ export const education = [
   },
   {
     name: "Trakya University",
-    degree: "Bachelor of Computer Engineering",
+    degree: "BSc Computer Engineering",
     startDate: "2019",
     endDate: "2023",
     expected: "2023",
